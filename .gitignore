@@ -1,0 +1,9 @@
+node_modules/
+.cache/
+# Ignore IDE configuration files
+.idea/
+.vscode/
+# Logs
+logs
+*.log
+npm-debug.log*
