@@ -109,12 +109,12 @@ Refer `examples` folder for more information. To run one of the example, `exampl
 
 ```json
 {
-  string: "string",
-  char: "c",
-  int: 123456,
-  double: 2020.2,
-  boolean: true,
-  array: [1, 2, 2020.2],
+  "string": "string",
+  "char": "c",
+  "int": 123456,
+  "double": 2020.2,
+  "boolean": true,
+  "array": [1, 2, 2020.2],
 };
 ```
 
