@@ -19,7 +19,23 @@
   </p>
 </p>
 
+## Dead Simple to Use
 
+```javascript
+# Import Package
+const jsonToKotlinClass = require("json-to-kotlin-class");
+
+# Your JSON
+const json = { key: "value" };
+
+# Call init function to initiate conversion
+console.log(jsonToKotlinClass.init(json));
+```
+## Resultant: A Kotlin Data Class
+
+```Kotlin
+data class JsonToKotlinMain (val key: String, )
+```
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -42,6 +58,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Sponsor</a></li>
   </ol>
 </details>
 
@@ -143,3 +160,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 SANKET MAKHIJA - [@sanket_dude](https://twitter.com/sanket_dude) - sanket[dot]mahija[at]gmail[dot]com
 
+## Sponsor ❤️
+
+Consider sponsoring this package and help open source community and contributions.
+
+ <a href="https://ko-fi.com/E1E72C2MM" target="_blank"> <img style={kofiStyle} src="https://cdn.ko-fi.com/cdn/kofi1.png?v=2"></img> </a>
