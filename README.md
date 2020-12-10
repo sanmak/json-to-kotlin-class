@@ -1,9 +1,5 @@
 # json-to-kotlin-class
 
-[![MIT License][license-shield]][license-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -147,6 +143,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 SANKET MAKHIJA - [@sanket_dude](https://twitter.com/sanket_dude) - sanket[dot]mahija[at]gmail[dot]com
 
-
-[license-shield]: https://img.shields.io/github/license/sanmak/json-to-kotlin-class?style=for-the-badge
-[license-url]: https://github.com/sanmak/json-to-kotlin-class/blob/main/LICENSE
