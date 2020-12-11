@@ -1,6 +1,9 @@
 # json-to-kotlin-class
 
-<!-- PROJECT LOGO -->
+<p align="center">
+  <a href="https://nodei.co/npm/json-to-kotlin-class/" target="_blank"><img src="https://nodei.co/npm/json-to-kotlin-class.png"></a>
+</p>
+
 <br />
 <p align="center">
 
