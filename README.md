@@ -82,28 +82,36 @@ This package is built with raw javascript and Mocha / Chai is used for testing.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
+Install this package and follow examples given below. We have `examples` folder which has implementation code as well.
 ### Installation
 
-1. Clone the repo
+1. Install NPM packages
    ```sh
-   git clone https://github.com/sanmak/json-to-kotlin-class.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
+   npm i --save json-to-kotlin-class
    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To use this package, import `src/index.js`, and call `init` function `app.init({your-respective-json})`. This will produce respective Kotlin Class.
-
-Refer `examples` folder for more information. To run one of the example, `examples/simple-json.js`, execute `node examples/simple-json.js`
+Once this package is added in your project as mentioned in the `installation`, you need to import this package and call `init` function to initiate conversion.
 
 ## Eg: 
+
+```javascript
+# Import Package
+const jsonToKotlinClass = require("json-to-kotlin-class");
+
+# Your JSON
+const json = { key: "value" };
+
+# Call init function to initiate conversion
+console.log(jsonToKotlinClass.init(json));
+```
+## Resultant: A Kotlin Data Class
+
+```Kotlin
+data class JsonToKotlinMain (val key: String, )
+```
 
 ### INPUT: JSON
 
@@ -126,7 +134,7 @@ data class JsonToKotlinMain (val string: String, val char: Char, val int: Int, v
 
 ## Test
 
-To test this package, run `npm run test`. Test cases is written in `test/test.js`.
+Test cases is written in `test/test.js`. To test this package, run `npm run test`. 
 
 <!-- ROADMAP -->
 ## Roadmap
